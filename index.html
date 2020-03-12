@@ -1,0 +1,37 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title></title>
+	<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-4 gauge_bar">
+				<div id="speed1" class="chart-gauge1"></div>
+				<div class="sel_button"><a href="#">Profitability</a></div>
+			</div>
+			<div class="col-4 gauge_bar">
+				<div id="speed2" class="chart-gauge2"></div>
+				<div class="sel_button"><a href="#">Performance</a></div>
+			</div>
+			<div class="col-4 gauge_bar">
+				<div id="speed3" class="chart-gauge3"></div>
+				<div class="sel_button"><a href="#">Activity</a></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="input_data">
+				<input type="text" id="input" oninput="companyJSON()" value="" placeholder="Company name">
+				<span id="spanComp"></span>
+			</div>
+		</div>	
+	</div>
+
+	<script type="text/javascript" src="cartGauge1.js"></script>
+
+</body>
+</html>

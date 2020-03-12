@@ -1,0 +1,96 @@
+html,
+body {
+  background-color: #f6f6f6!important;
+}
+
+.container {
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.30);
+  padding: 20px!important;
+  margin-top: 20px;
+}
+
+.row {
+  margin: 0px!important;
+}
+
+.gauge_bar {
+  text-align-last: center;
+}
+
+.sel_button a {
+  border: 1px solid #b6000e;
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  padding: 3px 10px;
+  font-weight: bold;
+  font-size: 13px;
+  width: 50%;
+}
+
+.input_data {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.30);
+  padding: 3px;
+  width: 24.5%;
+}
+
+#spanComp {
+  color: red;
+  font-size: 12px;
+}
+
+#input {
+  width: 98%;
+  border: 0px;
+}
+
+.chart-gauge1, .chart-gauge2, .chart-gauge3 {
+  width: 200px;
+  margin: 5px auto;
+}
+
+.chart-first {
+  fill: #9FBD35;
+}
+
+.chart-second {
+  fill: #F2BA3A;
+}
+
+.chart-third {
+  fill: #FB3033;
+}
+
+.needle, .needle-center {
+  fill: #000000;
+}
+
+.text {
+  color: "#112864";
+  font-size: 16px;
+}
+
+svg {
+  font: 10px sans-serif;
+  height: 110px;
+}
+
+g {
+  transform: translate(100px, 90px);
+}
+
+#scale0 {
+  transform: translate(5px, 105px);
+}
+
+#scale20 {
+  transform: translate(175px, 105px);
+}
+
+#Value {
+  font-size: 15px;
+}
+			
